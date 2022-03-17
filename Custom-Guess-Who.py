@@ -1,5 +1,5 @@
 # made by: Sunny Liu
-# last edited: March 16th, 2022
+# last edited: March 16th, 2021
 # this game was inspired by the classic board game 'Guess Who': https://en.wikipedia.org/wiki/Guess_Who%3F
 # must import list of 'mystery' people from a txt file (I put 'World History' as an example when I was studying for the AP World History exam with my friends)
 
