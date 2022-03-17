@@ -10,7 +10,7 @@ def rule():
 
   input("Press enter to continue")
 
-selections = "\nCurrent selections: World History"
+selections = "\nCurrent selections: World History, Demon Slayer, Attack on Titan"
 
 #introduction
 print ("Welcome to Guess Who: Custom Edition!\nMade by Sunny Liu\n")
@@ -24,6 +24,7 @@ while not (rules == "yes" or rules == "no"):
 if rules == "yes":
   rule()
 
+"""
 #selections
 print (selections)
 selection = input("Choose a selection (capitalization doesn't matter): ").lower()
@@ -43,7 +44,9 @@ while True:
       selection = input("Invalid selection. Enter a selection: ").lower()
 for line in file:
   lines.append(line.strip())
+"""
 
+lines = ['Kublai Khan', 'Marco Polo', 'Mansa Musa', 'Zheng He', 'Martin Luther', 'Suleiman I', 'Akbar the Great', 'Thomas Hobbes', 'John Locke', 'Rousseau', 'Adam Smith', 'Simon Bolivar', 'Matthew Perry', 'Karl Marx', 'Mahatma Gandhi', 'Vladimir Lenin', 'Joseph Stalin', 'Benito Mussolini', 'Adolf Hitler', 'Ho Chi Minh', 'Mao Zedong', 'Nelson Mandela']
 #lines.sort()
 
 #randomly gives mystery person
